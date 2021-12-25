@@ -18,19 +18,20 @@ This repository is a template for a Data Analytics project.
 
 Folder|Description
 -|-
- ┣ 📂[.vscode](./.vscode/)                     | VS Code generated content: settings for spellings.
- ┣ 📂[artifacts](./artifacts/)                 | Work products of the project/Jupyter notebooks.
- ┣ 📂[assets](./assets/)                       | Assets for the project, provided by the starter pack.
- ┣ 📂[docs](./docs/)                           | Documentation for the project.
- ┃ ┗ 📂[images](./docs/images/)                | Images for the documentation.
- ┣ 📂[notebooks](./notebooks/)                 | Jupyter notebooks for the project.
- ┃ ┗ 📂[script](./notebooks/script/)           | nbautoexport folder: Its contents are auto generated.
- ┣ 📂[references](./references/)               | References for the project, with copies.
- ┣ 📂[samples](./samples/)                     | Samples files and templates for the project.
- ┃ ┗ 📂[script](./samples/script/)             | nbautoexport folder: Its contents are auto generated.
- ┣ 📂[src](./src/)                             | Python source code for the Python package.
- ┃ ┗ 📂[sample_package](./src/sample_package/) | Python sample package.
- ┗ 📜[readme.md](readme.md)                    | The project readme file.
+ ┣ 📂[.vscode](./.vscode/)                            | VS Code generated content: settings for spellings.
+ ┣ 📂[artifacts](./artifacts/)                        | Work products of the project/Jupyter notebooks.
+ ┣ 📂[assets](./assets/)                              | Assets for the project, provided by the starter pack.
+ ┣ 📂[docs](./docs/)                                  | Documentation for the project.
+ ┃ ┗ 📂[images](./docs/images/)                       | Images for the documentation.
+ ┣ 📂[junk-dna](./junk-dna/)                          | Code and artifacts that didn't make it into the release.
+ ┣ 📂[maps](./maps/)                                  | Map system files.
+ ┃ ┗ 📂[irl-adm1](./maps/irl-adm1/)                   | irl-adm1 maps files.
+ ┣ 📂[notebooks](./notebooks/)                        | Jupyter notebooks for the project.
+ ┃ ┗ 📂[script](./notebooks/script/)                  | nbautoexport folder: Its contents are auto generated.
+ ┣ 📂[python-package](./python-package/)              | Python source code for the Python package.
+ ┃ ┗ 📂[project_name](./python-package/project_name/) | Python sample package.
+ ┣ 📂[references](./references/)                      | References for the project, with copies.
+ ┗ 📜[readme.md](readme.md)                           | The project readme file.
 
 > Directory Structure Legend
 

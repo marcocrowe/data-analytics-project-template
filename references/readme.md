@@ -37,6 +37,12 @@ https://towardsdatascience.com/data-scientists-your-variable-names-are-awful-her
 \[Accessed 3 November 2021\].  
 [Backup](2021-11nov-03-data-scientists-your-variable-names-are-awful.md)
 
+## Template References
+
+- <span id="MarkCrowe2021" />Mark Crowe, 2021. *Data Analytics Project Template* \[Online\]  
+Available at:
+https://github.com/markcrowe-com/data-analytics-project-template  
+\[Accessed 30 December 2021\].  
 
 ### Tools
 Webpages backed up as Markdown files using [markdown-clipper](https://chrome.google.com/webstore/detail/markdown-clipper/cjedbglnccaioiolemnfhjncicchinao).
