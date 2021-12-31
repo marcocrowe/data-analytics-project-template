@@ -45,7 +45,8 @@ Adjust the contents of these files to match your project.
  ┃ ┣ 📜[build-python-package.md](./../docs/build-python-package.md)  
  ┃ ┣ 📜[gantt-chart.md](./../docs/gantt-chart.md)  
  ┃ ┣ 📜[knowledge-skills-abilities.md](./../docs/knowledge-skills-abilities.md)  
- ┗ ┗ 📜[notebook-managers.md](./../docs/notebook-managers.md)  
+ ┃ ┃ 📜[notebook-managers.md](./../docs/notebook-managers.md)  
+ ┗ ┗ 📜[project-structure-guide.md](./../docs/project-structure-guide.md)  
 
 ## Adjust Python Package
 
@@ -80,7 +81,7 @@ The following files are samples. You can delete them if you don't need them.
  ┃ ┣ 📜[notebook-1-02-example-better-code-population-eda](./../notebooks/notebook-2-01-example-better-code-population-eda.ipynb)  
  ┃ ┗ 📜[notebook-2-01-example-better-code-population-sa](./../notebooks/notebook-2-02-example-better-code-population-dv.ipynb)  
  ┣ 📂maps  
- ┗ ┗ 📜[irl-adm1](./../maps/irl-adm1/)  
+ ┗ ┗ 📂[irl-adm1](./../maps/irl-adm1/)  
 
 ---
 **Template footnote**  

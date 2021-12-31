@@ -1,9 +1,3 @@
-<style>
-p
-{
-	text-align: justify;
-}
-</style>
 # [Data Analytics Project Template](./../../../)
 
 ## Jupyter notebooks Layout guide
