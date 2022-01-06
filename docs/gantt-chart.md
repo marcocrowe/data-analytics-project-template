@@ -12,7 +12,6 @@ Links made with [Link Shortener Extension](https://timleland.com/link-shortener-
 
 Gantt chart made with [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/edit/)  
 
-
 ### Gantt Chart Mermaid Code
 ```mermaid
 gantt
