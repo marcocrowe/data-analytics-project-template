@@ -1,7 +1,7 @@
 # [Data Analytics Project Template](./../../../)
 
 ## Notebooks Managers
-> "You want to take on responsibility. You want to take on the heaviest load that you can conceive of that you might be able to move because it gives your life nobility and purpose. And that offsets the tragedy." - Dr. Jordan B. Peterson, 2018
+> "You want to take on responsibility. You want to take on the heaviest load that you can conceive of that you might be able to move because it gives your life nobility and purpose. And that offsets the tragedy." - [Dr. Jordan B. Peterson, 2018](https://youtu.be/Gru_JBBMBbY?t=332)
 
 A quick reference of which team members are responsible for which notebooks of the project.
 
@@ -36,10 +36,11 @@ John Doe: JD, Mark Crowe: MC
 📜[knowledge-skills-abilities.md](knowledge-skills-abilities.md) | MC | MC | \*\*\*\*\*
 📜[notebook-managers.md](#) | MC | MC | \*\*\*
 📜[project-structure-guide.md](project-structure-guide.md) | MC | MC | \*\*\*\*\*
-&nbsp; | &nbsp; | &nbsp; | 
+\- | \- | \- | \- | 
 📜data-science-project-management-methodologies.md | MC | MC | 
 📜trello.md | MC | MC | 
 📜working-with-word.md | MC | MC | 
+
 
 ---
 **Template footnote**  
