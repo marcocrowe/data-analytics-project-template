@@ -10,6 +10,11 @@ First, you will need to install `nbautoexport`. This should be installed in the 
 
 Then, to register `nbautoexport` to run automatically while using Jupyter Notebook or Jupyter Lab, run:
 
+
+```bash
+pip install nbautoexport
+```
+
 ```bash
 conda install nbautoexport --channel conda-forge
 ```
