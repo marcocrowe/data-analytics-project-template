@@ -10,6 +10,7 @@ This folder contains the Jupyter notebooks for this project using the datasets i
 ## Bad Example of Jupyter notebook and code
 This Jupyter notebook is an example of what not to do.  
 - [Notebook 1-01: EDA and Data Visualization of the population (1950 - 2021)](notebook-1-01-example-bad-code-population.ipynb)  
+- [Notebook 1-02: Twitter Data Scraping](notebook-1-02-dc-twitter-api.ipynb)  
 
 ## Corrected Example of Jupyter notebook and code
 These Jupyter notebooks take [Notebook 1-01](notebook-1-01-example-bad-code-population.ipynb) and show a corrected better example of how to layout and code a Jupyter notebook
