@@ -1,27 +1,35 @@
+
 # [Data Analytics Project Template](./../../../)
 
 # Build and publish a Python package
 
 *All these commands must be run from the `python-package` folder path in the project:*
 
-### Update the required packages
+## Update the required packages
+
 To build the requirements.txt file run these commands:
+
 ```bash
 pipreqs --force
 ```
 
 ## Build/rebuild the Python package
+
 To build the Python package, run the following command:
+
 ```bash
 python -m build
 ```
 
 ## Publish the Python package
+
 To publish the package to PyPI, run the following command:
+
 ```bash
 python -m twine upload dist/*
 ```
-For username enter `__token__` and then your password.  
+
+For username enter `__token__` and then your password.
 
 The package is then available at <https://pypi.org/project/PACKAGE_URL/>
 
@@ -36,6 +44,7 @@ pip install PACKAGE_NAME
 ```
 
 ### Local installation
+
 To install the package from local sources, run the following command:
 
 ```bash
@@ -48,11 +57,13 @@ To force a reinstall of the package from local sources, run the following comman
 pip install .\dist\PACKAGE_NAME-0.0.1-py3-none-any.whl --force-reinstall
 ```
 
-Conda:  
+Conda:
+
 ```bash
 conda install .\dist\PACKAGE_NAME-0.0.1-py3-none-any.whl --channel conda-forge
 ```
 
 ---
-**Template footnote**  
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+**Template footnote:**
+
+This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
