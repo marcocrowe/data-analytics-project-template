@@ -1,7 +1,9 @@
-# [Data Analytics Project Template](./../../../)
+
+# [Data Analytics Project Template](./../../..)
 
 ## Headings
-Replace the heading 1 text in these files with your projects title.  
+
+Replace the heading 1 text in these files with your projects title.
 
 📦data-analytics-project-template  
  ┣ 📂artifacts  
@@ -35,7 +37,7 @@ Replace the heading 1 text in these files with your projects title.
 
 ## Adjust Contents
 
-Adjust the contents of these files to match your project.  
+Adjust the contents of these files to match your project.
 
 📦data-analytics-project-template  
  ┣ 📂artifacts  
@@ -50,14 +52,14 @@ Adjust the contents of these files to match your project.
 
 ## Adjust Python Package
 
-This is skeleton of a Python package. Rename the folder `project_name` to the namespace of your package. Configure `license`, `readme.md`, and `setup.cfg` for your package.  
+This is skeleton of a Python package. Rename the folder `project_name` to the namespace of your package. Configure `license`, `readme.md`, and `setup.cfg` for your package.
 
 📦data-analytics-project-template  
  ┣ 📂python-package  
- ┃ ┗ 📂[project_name](./../python-package/project_name/)  
+ ┃ ┗ 📂[project_name](./../python-package/project_name)  
  ┃ ┃ ┣ 📜[dataframe_labels.py](./../python-package/project_name/dataframe_labels.py)  
  ┃ ┃ ┗ 📜[project_manager.py](./../python-package/project_name/project_manager.py)  
- ┃ ┣ 📂tests  
+ ┃ ┣ 📂[tests](./../python-package/tests)  
  ┃ ┃ ┗ 📜[test_basic.py](./../python-package/tests/test_basic.py)  
  ┃ ┣ 📜[license](./../python-package/license)  
  ┃ ┣ 📜[pyproject.toml](./../python-package/pyproject.toml)  
@@ -67,7 +69,7 @@ This is skeleton of a Python package. Rename the folder `project_name` to the na
 
 ## Delete
 
-The following files are samples. You can delete them if you don't need them.  
+The following files are samples. You can delete them if you don't need them.
 
 📦data-analytics-project-template  
  ┣ 📂artifacts  
@@ -81,8 +83,9 @@ The following files are samples. You can delete them if you don't need them.
  ┃ ┣ 📜[notebook-1-02-example-better-code-population-eda](./../notebooks/notebook-2-01-example-better-code-population-eda.ipynb)  
  ┃ ┗ 📜[notebook-2-01-example-better-code-population-sa](./../notebooks/notebook-2-02-example-better-code-population-dv.ipynb)  
  ┣ 📂maps  
- ┗ ┗ 📂[irl-adm1](./../maps/irl-adm1/)  
+ ┗ ┗ 📂[irl-adm1](./../maps/irl-adm1)  
 
 ---
-**Template footnote**  
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+**Template footnote:**
+
+This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.

@@ -1,4 +1,5 @@
-# [Data Analytics Project Template](./../../../)
+
+# [Data Analytics Project Template](./../../..)
 
 ## Code Style Guide
 
@@ -10,7 +11,7 @@ The Python Style guide states that "The naming conventions of Python's library a
 
 Use meaningful variable names. The variable name must describe the information represented by the variable. A variable name should tell you specifically in words what the variable stands for [(Koehrsen, 2019)](./../references/readme.md#Koehrsen2019) e.g., `dataframe` rather than `df`, and `index` rather than `i`.
 
-Avoid these awful variable names:  
+Avoid these awful variable names:
 
 - Single letter names
 - Unhelpful/confusing/vague variable names
@@ -21,19 +22,20 @@ Avoid these awful variable names:
 When creating an object of class, the name should generally include the class name.
 
 **Examples:**
+
 ```python
 dataframe = pandas.parse_csv(filename)
 customer_dataframe = pandas.parse_csv(customer_filename)
 stock_dataframe = pandas.parse_csv(stock_filename)
 ```
 
-**Incorrect Examples**
+**Incorrect Examples:**
 
-| Wrong | Reason |
-|-|-|
-| `df = pandas.parse_csv(filename)` | Abbreviation, `df` is a not a descriptive name |
+| Wrong                                               | Reason                                                                             |
+|-----------------------------------------------------|------------------------------------------------------------------------------------|
+| `df = pandas.parse_csv(filename)`                   | Abbreviation, `df` is a not a descriptive name                                     |
 | `customer_df = pandas.parse_csv(customer_filename)` | Ambiguous name. What is a `customer_df`, what fields and methods would you expect? |
-| `df_stock = pandas.parse_csv(stock_filename)` | `df_stock` is Hungarian notation |  
+| `df_stock = pandas.parse_csv(stock_filename)`       | `df_stock` is Hungarian notation                                                   |
 
 #### Project code abbreviations
 
@@ -57,7 +59,7 @@ def calculate_limits(dataframe: DataFrame, column_label: str) -> tuple:
     iqr = q3 - q1
     lowerLimit = q1 – 1.5 * iqr
     upperLimit = q3 + 1.5 * iqr
-return lowerLimit, upperLimit
+    return lowerLimit, upperLimit
 ```
 
 > What is 1.5? Why 1.5 and not 1 or 2?
@@ -85,6 +87,7 @@ def calculate_limits(dataframe: DataFrame, column_label: str) -> tuple:
 Local variables are to be defined in lower snake_case. camelCase isn't recommended but as they are local it won't be an issue.
 
 **Examples:**
+
 ```python
 filename = 'births-by-county-1985-2020.csv'
 velocity_avg = 78
@@ -94,15 +97,15 @@ iqr = 2.43344
 roi_counties = ['Clare', 'Limerick']
 ```
 
-**Incorrect Examples**
+**Incorrect Examples:**
 
-| Wrong | Reason |
-|-|-|
-| `fileName = 'data.csv'` | camelCase|
-| `Velocity_AVG = 78` | A mix of PascalCase and snake_case|
-| `columnLabel = 'First name'` | camelCase|
-| `Dataframe = pd.read_csv(filename)` | PascalCase|
-| `IQR` | Uppercase, looks like a constant|
+| Wrong                                  | Reason                                       |
+|----------------------------------------|----------------------------------------------|
+| `fileName = 'data.csv'`                | camelCase                                    |
+| `Velocity_AVG = 78`                    | A mix of PascalCase and snake_case           |
+| `columnLabel = 'First name'`           | camelCase                                    |
+| `Dataframe = pd.read_csv(filename)`    | PascalCase                                   |
+| `IQR`                                  | Uppercase, looks like a constant             |
 | `ROI_counties = ['clare', 'limerick']` | Uppercase abbreviation and of mix snake case |
 
 #### Constant Variables
@@ -120,25 +123,25 @@ IRISH_COUNTY_COUNT = 26
 
 Boolean variable generally begin with is or has
 
-**Examples:**  
+**Examples:**
 
 ```python
 is_remote = False
 has_limits = True
 ```
 
-**Incorrect Examples**  
+**Incorrect Examples:**
 
-| Wrong | Reason |
-|-|-|
-| `remote = False` | Without the value of the variable is unclear what remote is |
-| `limits = True` | Without the value of the variable is unclear what the limits are.  <br/>By Beginning a name with a plural word, it suggests it is an array/number |
+| Wrong            | Reason                                                                                                                                            |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| `remote = False` | Without the value of the variable is unclear what remote is                                                                                       |
+| `limits = True`  | Without the value of the variable is unclear what the limits are.  <br/>By Beginning a name with a plural word, it suggests it is an array/number |
 
 ### Methods
 
 Methods are to be defined with snake_case as they are part of the API. Method declarations should include the type of the parameters and the return type.
 
-**Example:**  
+**Example:**
 
 ```python
 def get_github_url(repository_url: str, filename: str) -> str:
@@ -149,7 +152,7 @@ def print_dataframe(dataframe: DataFrame) -> None:
     display(dataframe.head())
 ```
 
-**Incorrect Example:**  
+**Incorrect Example:**
 
 ```python
 def get_github_url(repository_url, filename):
@@ -175,7 +178,8 @@ Inline comments are unnecessary and in fact distracting if they state the obviou
 ```python
 x = x + 1     # Increment x
 ```
-**But sometimes, this is useful:** 
+
+**But sometimes, this is useful:**
 
 ```python
 x = x + 1    # Compensate for border
@@ -184,6 +188,7 @@ x = x + 1    # Compensate for border
 ### Documentation
 
 Methods should be documented explaining what they do and what the parameters are.
+
 ```python
 def create_jupyter_notebook_header(github_username: str, repository: str, notebook_filepath: str, branch: str = 'master') -> str:
     """
@@ -204,11 +209,11 @@ Class names are to be defined with Pascal Case.
 
 In python code, the IDEs shall manage spacing and indentation. Spaces shall be used, not tabs. In Jupyter no indentation policy shall be enforced.
 
-### Literals 
+### Literals
 
 #### Sting Literals
 
-Use f-Strings. Clearer syntax and they are fasted than % and str.format [(Jablonski, 2018)](./../references/readme.md#Jablonski2018) 
+Use f-Strings for clearer syntax, and they are fasted than `%` and `str.format` [(Jablonski, 2018)](./../references/readme.md#Jablonski2018)
 
 ```python
 repository_url = "https://www.github.com/markcrowe-com"
@@ -226,6 +231,7 @@ Use f-Strings.
 ```python
 url = f"{repository_url}/{filename}"
 ```
+
 #### Numeric Literals
 
 For large numbers use numeric literals. [(Georg Brandl, 2016)](./../references/readme.md#GeorgBrandl2016)
@@ -241,11 +247,11 @@ address = 0xCAFE_F00D
 flags = 0b_0011_1111_0100_1110
 ```
 
-If specifying a numeric type (binary, octal, hexadecimal) use lowercase
-`b`, `o`, `x` to avoid confusion with numbers like `0` and `8`  
+If specifying a numeric type (binary, octal, hexadecimal) use lowercase `b`, `o`, `x` to avoid confusion with numbers like `0` and `8`
 
 [References](./../references/readme.md)
 
 ---
-**Template footnote**  
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+**Template footnote:**
+
+This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
