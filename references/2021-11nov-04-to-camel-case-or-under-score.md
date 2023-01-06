@@ -211,7 +211,7 @@ To investigate the hypotheses, four models were constructed. The first two model
 | Variable                           | Estimate | p-value |
 |------------------------------------|---------:|--------:|
 | Intercept                          |   -3.375 | <0.0001 |
-| Style -                            |    0.126 |  0.7253 |
+| Style                              |   -0.126 |  0.7253 |
 | Correctness                        |    1.164 |  0.0039 |
 | Training                           |    0.106 |  0.1317 |
 | Time on Demographics               |    0.143 | <0.0001 |
