@@ -4,13 +4,13 @@
 
 >"Make a bad plan. Make the best one you can, but don't get obsessive about it. Make a plan, implement it. You'll figure out when you implement it why it's stupid, exactly, and then you can fix it a little bit, and then you can fix it a bit more, and then, eventually, you get a good plan, even if you start with something that's not the best." - [Dr. Jordan B. Peterson, 2018](https://www.jordanbpeterson.com/transcripts/aubrey-marcus/)
 
-[![Gantt chart](./images/gantt-chart.jfif)](https://tinyurl.com/y6yvnn6c)
+[![Gantt chart](./images/gantt-chart.png)](https://tinyurl.com/2mqadoj4)
 
 > Gantt chart
 
 Links made with [Link Shortener Extension](https://timleland.com/link-shortener-extension/)
 
-Gantt chart made with [Mermaid](https://mermaid-js.github.io/mermaid-live-editor/edit/)
+Gantt chart made with [Mermaid](https://mermaid.live/edit)
 
 ### Gantt Chart Mermaid Code
 
