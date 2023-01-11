@@ -35,6 +35,7 @@
 		"markcrowe",
 		"Mizner",
 		"nbautoexport",
+		"nbextensions",
 		"nunique",
 		"pandoc",
 		"pipreqs",
@@ -58,6 +59,7 @@
 		"trello",
 		"triu",
 		"Tukey",
+		"tweepy",
 		"xlabel",
 		"ylabel"
 	]

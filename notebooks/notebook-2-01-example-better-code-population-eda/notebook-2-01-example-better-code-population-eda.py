@@ -44,9 +44,9 @@
 # Import required third party Python libraries, import supporting functions and sets up data source file paths.
 
 # Local
-#!pip install -r script/requirements.txt --quiet
+#%pip install -r notebook-2-01-example-better-code-population-eda/requirements.txt --quiet
 # Remote option
-#!pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/script/requirements.txt --quiet
+#%pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/notebook-2-01-example-better-code-population-eda/requirements.txt --quiet
 
 
 from population_planning.dataframe_labels import *

@@ -9,7 +9,9 @@
 
 [geoBoundaries](https://www.geoboundaries.org/): The world's largest open, free, and research-ready database of political administrative boundaries.
 
-This folder contains files for a choropleth map of Ireland, downloaded from <https://www.geoboundaries.org/data/1_3_3/zip/shapefile/IRL/IRL_ADM1.shp.zip>
+This folder contains files for a choropleth map of Ireland, downloaded from:
+
+<https://www.geoboundaries.org/data/1_3_3/zip/shapefile/IRL/IRL_ADM1.shp.zip>
 
 - Republic of Ireland: [irl-adm1](irl-adm1)
 

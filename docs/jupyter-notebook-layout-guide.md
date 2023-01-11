@@ -122,27 +122,21 @@ be aware that Latex expressions will not copy directly from Jupyter notebook and
 
 ### Images and Output
 
-The output of all the cells in the Jupyter notebook graphs images table
-output will copy to the Word document automatically.
+The output of all the cells in the Jupyter notebook graphs images table output will copy to the Word document automatically.
 
 ### Captions: Images, tables and other
 
-Word cannot recognize a caption in an image and there is no automatic
-way to import a caption in the Microsoft Word format. To that end I have
-developed a workaround. Take the following image in cell \[12\] to add a
-caption “Correlation Matrix Heatmap Pyramid” add a markdown below it and
-insert the following html code:
+Word cannot recognize a caption in an image and there is no automatic way to import a caption in the Microsoft Word format. To that end I have developed a workaround. Take the following image in cell \[12\] to add a caption “Correlation Matrix Heatmap Pyramid” add a markdown below it and insert the following html code:
 
 ```html
 <p class="Caption">Correlation Matrix Heatmap Pyramid</p>
 ```
 
-<img src="images/correlation-matrix-heatmap-pyramid.png" alt="Correlation Matrix Heatmap Pyramid" />
+![Correlation Matrix Heatmap Pyramid](images/correlation-matrix-heatmap-pyramid.png)
 
 `Caption` is the style that will be used in the report to for Microsoft Word to format the figure captions and generate the Table of Figures. Do not prefix any caption in your Jupyter notebook with figure numbers or a figure label. Microsoft Word will be responsible for automatically generating the Figure label and number. If you wish to refer to a table or Jupyter cell like a figure add a caption.
 
-If you want to refer to blocks of code or a table output in a different
-TOC: Table of Figures/Tables/Code Blocks use the following reference:
+If you want to refer to blocks of code or a table output in a different TOC: Table of Figures/Tables/Code Blocks use the following reference:
 
 | &nbsp;     | CSS class name | Html Example                                                          |
 |------------|----------------|-----------------------------------------------------------------------|
