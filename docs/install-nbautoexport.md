@@ -30,15 +30,20 @@ If you already have a Jupyter server running, you will need to restart it for th
 # Simple usage
 
 Let's say you have a directory for your project, and you keep your notebooks in a `population-planning-data-analytics` directory at
+
 `C:\Users\USER\Documents\GitHub\population-planning-data-analytics\`.
 
-To configure that directory for automatic exporting, open a command prompt at `C:\Users\USER\Documents\GitHub\` run the following:
+To configure that directory for automatic exporting, open a command prompt at
+
+`C:\Users\USER\Documents\GitHub\` and run the following:
 
 ```bash
 nbautoexport configure population-planning-data-analytics
 ```
 
-This will create a configuration file `C:\Users\USER\Documents\GitHub\population-planning-data-analytics\.nbautoexport`.
+This will create a configuration file:
+
+ `C:\Users\USER\Documents\GitHub\population-planning-data-analytics\.nbautoexport`.
 
 ## Sub directories
 

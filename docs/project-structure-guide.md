@@ -39,12 +39,12 @@ Lower kebab-case is chosen because the project is available online as a data sci
 
 ##### Example: Same URL except for case. (1) readme, (2) README
 
-https://github.com/markcrowe-com/
+<https://github.com/markcrowe-com/>
 
-1.  <https://raw.githubusercontent.com/markcrowe-com/data-analytics-project-template/master/readme.md>
+1. <https://raw.githubusercontent.com/markcrowe-com/data-analytics-project-template/master/readme.md>
   Returns the contents of `readme.md`
 
-2.  <https://raw.githubusercontent.com/markcrowe-com/data-analytics-project-template/master/README.md>
+2. <https://raw.githubusercontent.com/markcrowe-com/data-analytics-project-template/master/README.md>
    Returns a `404: Not Found` error
 
 ##### Correct file name examples
@@ -119,7 +119,10 @@ To make the project interactive online each Jupyter Notebook will include a head
 
 <table><tr><td><a href="https://mybinder.org/v2/gh/markcrowe-com/data-analytics-project-template/master?filepath=notebooks/notebook-1-01-example-bad-code-population.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Open In Binder"/></a></td><td>online editors</td><td><a href="https://colab.research.google.com/github/markcrowe-com/data-analytics-project-template/blob/master/notebooks/notebook-1-01-example-bad-code-population.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td></tr></table>
 
-Two function `create_jupyter_notebook_header(github_username: str, repository: str, notebook_filepath: str, branch: str)` and `print_jupyter_notebook_header_html(github_username: str, repository: str, notebook_filepath: str, branch: str)` has been provided to generate this code.
+Two function have been provided to generate this code.
+
+- `create_jupyter_notebook_header(github_username: str, repository: str, notebook_filepath: str, branch: str)`
+- `print_jupyter_notebook_header_html(github_username: str, repository: str, notebook_filepath: str, branch: str)`
 
 Data Sources files are to be referenced from their online sources.
 

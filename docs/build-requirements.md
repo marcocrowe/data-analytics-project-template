@@ -34,6 +34,7 @@ pipreqs
 ### Example
 
 Let's say you have a project and keep your notebooks in a `notebooks` directory at
+
 `C:\Users\USER\Documents\GitHub\data-analytics-project-template\notebooks`.
 You need to open the Anaconda Prompt and run the following command
 
@@ -43,7 +44,9 @@ cd C:\Users\USER\Documents\GitHub\data-analytics-project-template\notebooks\scri
 pipreqs
 ```
 
-A `requirements.txt` file will be created at `C:\Users\USER\Documents\GitHub\data-analytics-project-template\notebooks\script\requirements.txt`.
+A `requirements.txt` file will be created at
+
+`C:\Users\USER\Documents\GitHub\data-analytics-project-template\notebooks\script\requirements.txt`.
 
 The in the jupyter notebook add a cell with the following command to install the dependencies:
 
