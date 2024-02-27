@@ -828,5 +828,4 @@ FodyWeavers.xsd
 # WinMerge
 *.bak
 
-# Config files
-twitter-config.ini
+*.ini

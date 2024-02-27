@@ -31,7 +31,6 @@ This repository is a template for a Data Analytics project.
 | ┣ 📂[maps](./maps)                                  | Map system files.                                        |
 | ┃ ┗ 📂[irl-adm1](./maps/irl-adm1)                   | irl-adm1 maps files.                                     |
 | ┣ 📂[notebooks](./notebooks)                        | Jupyter notebooks for the project.                       |
-| ┃ ┗ 📂[script](./notebooks/script)                  | nbautoexport folder: Its contents are auto generated.    |
 | ┣ 📂[python-package](./python-package)              | Python source code for the Python package.               |
 | ┃ ┗ 📂[project_name](./python-package/project_name) | Python sample package.                                   |
 | ┣ 📂[references](./references)                      | References for the project, with copies.                 |
