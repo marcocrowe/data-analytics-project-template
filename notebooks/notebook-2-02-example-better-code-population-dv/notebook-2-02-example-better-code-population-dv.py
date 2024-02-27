@@ -44,9 +44,9 @@
 # Import required third party Python libraries, import supporting functions and sets up data source file paths.
 
 # Local
-#!pip install -r script/requirements.txt --quiet
+#%pip install -r notebook-2-02-example-better-code-population-dv/requirements.txt --quiet
 # Remote option
-#!pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/script/requirements.txt --quiet
+#%pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/notebook-2-02-example-better-code-population-dv/requirements.txt --quiet
 
 
 from altair.vegalite.v4.api import ConcatChart
@@ -77,7 +77,7 @@ def build_interactive_population_pyramid_chart(
         male_value: str = "Male",
         female_value: str = "Female",
         male_color: str = "darkblue",
-        female_color: str = "darkgreen",
+        female_color: str = "darkGreen",
         year_min: int = 1950,
         year_max: int = 2021,
         year_init: int = 2020) -> ConcatChart:
