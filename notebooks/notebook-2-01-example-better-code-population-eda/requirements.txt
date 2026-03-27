@@ -1,2 +1,2 @@
-markcrowe==0.0.9
-pandas==1.4.4
+markcrowe==0.1.2
+pandas==3.0.1
