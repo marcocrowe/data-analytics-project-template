@@ -107,13 +107,16 @@ def build_interactive_population_pyramid_chart(
     year_bind_range = altair.binding_range(
         min=year_min, max=year_max, step=1, name="Select Year"
     )
-    year_selection = altair.selection_single(bind=year_bind_range,
-                                             fields=[time_field],
-                                             init={time_field: year_init},
-                                             name="Irish Population")
-    trunk = altair.Chart(population_dataframe, title="Age").add_selection(
-        year_selection).transform_filter(year_selection).transform_calculate(
-            Sex=altair.datum[sex_field]).properties(width=300)
+    year_selection = altair.param(
+        name="irish_population_year", bind=year_bind_range, value=year_init
+    )
+    trunk = (
+        altair.Chart(population_dataframe, title="Age")
+        .add_params(year_selection)
+        .transform_filter(altair.datum[time_field] == year_selection)
+        .transform_calculate(Sex=altair.datum[sex_field])
+        .properties(width=300)
+    )
 
     tree_color_scale = altair.Scale(
         domain=[male_value, female_value], range=[male_color, female_color]
