@@ -6,7 +6,7 @@
 †Loyola College, Baltimore MD, 21210, USA
 ‡Johns Hopkins University, Baltimore MD, 21218, USA
 
-binkley@cs.loyola.edu mdavis@csos.jhu.edu lawrie@cs.loyola.edu chm@loyola.edu
+<binkley@cs.loyola.edu> <mdavis@csos.jhu.edu> <lawrie@cs.loyola.edu> <chm@loyola.edu>
 
 ## Abstract
 
