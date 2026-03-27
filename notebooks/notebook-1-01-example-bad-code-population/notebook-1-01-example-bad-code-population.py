@@ -239,9 +239,20 @@ df_PP.head()
 # %%
 year_selector = alt.binding_range(min=1950, max=2021, step=1, name="year selector")
 
+# %%
+select_year = alt.param(
+    name="population",
+    bind=year_selector,
+    value=2020,
+)
 
-select_year = alt.selection_single(name="population",fields=["Year"],
-                                   bind=year_selector, init={"Year":2020} )
+# %%
+trunk = (
+    alt.Chart(df_PP, title="Age")
+    .transform_filter(alt.datum.Year == select_year)
+    .transform_calculate(gender=alt.datum.Sex)
+    .properties(width=300)
+)
 
 # %%
 tree_color = alt.Scale(domain=["Male", "Female"], range=["blue", "violet"])
@@ -288,4 +299,8 @@ female_tree = (
     .mark_bar()
     .properties(title="Female")
 )
+
+# %%
+alt.concat(male_tree, y_trunk, female_tree, spacing=2).add_params(select_year)
+
 
