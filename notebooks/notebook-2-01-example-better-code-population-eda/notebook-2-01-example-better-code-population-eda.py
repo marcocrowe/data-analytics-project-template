@@ -31,9 +31,9 @@
 
 # <!--
 # import data_analytics.github as github
-# print(github.create_jupyter_notebook_header("markcrowe-com", "data-analytics-project-template", "notebooks/notebook-2-01-example-better-code-population-eda.ipynb", "master"))
+# print(github.create_jupyter_notebook_header("marcocrowe", "data-analytics-project-template", "notebooks/notebook-2-01-example-better-code-population-eda.ipynb", "master"))
 # -->
-# <table style="margin: auto;"><tr><td><a href="https://mybinder.org/v2/gh/markcrowe-com/data-analytics-project-template/master?filepath=notebooks/notebook-2-01-example-better-code-population-eda.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Open In Binder"/></a></td><td>online editors</td><td><a href="https://colab.research.google.com/github/markcrowe-com/data-analytics-project-template/blob/master/notebooks/notebook-2-01-example-better-code-population-eda.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td></tr></table>
+# <table style="margin: auto;"><tr><td><a href="https://mybinder.org/v2/gh/marcocrowe/data-analytics-project-template/master?filepath=notebooks/notebook-2-01-example-better-code-population-eda.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Open In Binder"/></a></td><td>online editors</td><td><a href="https://colab.research.google.com/github/marcocrowe/data-analytics-project-template/blob/master/notebooks/notebook-2-01-example-better-code-population-eda.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td></tr></table>
 
 # ### Objective
 
@@ -46,7 +46,7 @@
 # Local
 #%pip install -r notebook-2-01-example-better-code-population-eda/requirements.txt --quiet
 # Remote option
-#%pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/notebook-2-01-example-better-code-population-eda/requirements.txt --quiet
+#%pip install -r https://github.com/marcocrowe/data-analytics-project-template/blob/master/notebooks/notebook-2-01-example-better-code-population-eda/requirements.txt --quiet
 
 
 from population_planning.dataframe_labels import *
@@ -149,4 +149,4 @@ population_dataframe.to_csv(artifact_manager.get_population_eda_filepath(),
                             index=None)
 
 
-# Author &copy; 2021 <a href="https://github.com/markcrowe-com" target="_parent">Mark Crowe</a>. All rights reserved.
+# Author &copy; 2021 <a href="https://github.com/marcocrowe" target="_parent">Mark Crowe</a>. All rights reserved.

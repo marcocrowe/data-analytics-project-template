@@ -1,9 +1,12 @@
-# Copyright (c) 2021 Mark Crowe <https://github.com/markcrowe-com>. All rights reserved.
+"""
+Copyright (c) 2021 Mark Crowe <https://github.com/marcocrowe>.
+All rights reserved.
+"""
 
 from data_analytics.github import RepositoryFileManager, RELATIVE_PATH
 
 
-REPOSITORY_URL = 'https://github.com/markcrowe-com/data-analytics-project-template'
+REPOSITORY_URL = 'https://github.com/marcocrowe/data-analytics-project-template'
 
 
 class ProjectArtifactManager(RepositoryFileManager):

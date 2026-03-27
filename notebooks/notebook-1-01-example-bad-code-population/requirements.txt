@@ -1,8 +1,8 @@
-altair==4.2.0
-ipython==8.8.0
-matplotlib==3.6.2
-numpy==1.24.1
-pandas==1.4.4
-pmdarima==2.0.2
-seaborn==0.11.2
-statsmodels==0.13.2
+altair==6.0.0
+ipython==9.11.0
+matplotlib==3.10.8
+numpy==2.4.3
+pandas==3.0.1
+pmdarima==2.1.1
+seaborn==0.13.2
+statsmodels==0.14.6

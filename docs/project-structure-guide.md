@@ -39,12 +39,12 @@ Lower kebab-case is chosen because the project is available online as a data sci
 
 ##### Example: Same URL except for case. (1) readme, (2) README
 
-<https://github.com/markcrowe-com/>
+<https://github.com/marcocrowe/>
 
-1. <https://raw.githubusercontent.com/markcrowe-com/data-analytics-project-template/master/readme.md>
+1. <https://raw.githubusercontent.com/marcocrowe/data-analytics-project-template/master/readme.md>
   Returns the contents of `readme.md`
 
-2. <https://raw.githubusercontent.com/markcrowe-com/data-analytics-project-template/master/README.md>
+2. <https://raw.githubusercontent.com/marcocrowe/data-analytics-project-template/master/README.md>
    Returns a `404: Not Found` error
 
 ##### Correct file name examples
@@ -117,7 +117,7 @@ References are to be listed using Harvard referencing style in the file [/refere
 
 To make the project interactive online each Jupyter Notebook will include a heading with the online editors in the first cell.
 
-<table><tr><td><a href="https://mybinder.org/v2/gh/markcrowe-com/data-analytics-project-template/master?filepath=notebooks/notebook-1-01-example-bad-code-population.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Open In Binder"/></a></td><td>online editors</td><td><a href="https://colab.research.google.com/github/markcrowe-com/data-analytics-project-template/blob/master/notebooks/notebook-1-01-example-bad-code-population.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td></tr></table>
+<table><tr><td><a href="https://mybinder.org/v2/gh/marcocrowe/data-analytics-project-template/master?filepath=notebooks/notebook-1-01-example-bad-code-population.ipynb" target="_parent"><img src="https://mybinder.org/badge_logo.svg" alt="Open In Binder"/></a></td><td>online editors</td><td><a href="https://colab.research.google.com/github/marcocrowe/data-analytics-project-template/blob/master/notebooks/notebook-1-01-example-bad-code-population.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></td></tr></table>
 
 Two function have been provided to generate this code.
 
@@ -251,4 +251,4 @@ The files `desktop.ico` and `desktop.ini` are used to set the icon and name of t
 ---
 **Template footnote:**
 
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+This project started from the template <https://github.com/marcocrowe/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/marcocrowe/) Copyright &copy; 2021, All rights reserved.
