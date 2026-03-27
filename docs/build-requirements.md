@@ -10,7 +10,7 @@ A requirements.txt file is used to specify the build requirements for a project 
 !pip install -r script/requirements.txt --quiet
 
 # Remote option
-!pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/script/requirements.txt?raw=true  --quiet
+!pip install -r https://github.com/marcocrowe/data-analytics-project-template/blob/master/notebooks/script/requirements.txt?raw=true  --quiet
 ```
 
 ## Install Tools
@@ -52,7 +52,7 @@ The in the jupyter notebook add a cell with the following command to install the
 
 ```python
 # Remote option
-!pip install -r https://github.com/markcrowe-com/data-analytics-project-template/blob/master/notebooks/script/requirements.txt?raw=true  --quiet
+!pip install -r https://github.com/marcocrowe/data-analytics-project-template/blob/master/notebooks/script/requirements.txt?raw=true  --quiet
 
 # Local Option
 #!pip install -r script/requirements.txt --quiet
@@ -64,4 +64,4 @@ The in the jupyter notebook add a cell with the following command to install the
 ---
 **Template footnote:**
 
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+This project started from the template <https://github.com/marcocrowe/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/marcocrowe/) Copyright &copy; 2021, All rights reserved.

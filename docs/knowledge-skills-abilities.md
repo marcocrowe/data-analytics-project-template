@@ -48,4 +48,4 @@ At the start of the project download [group-skills.xlsx](./../artifacts/group-sk
 ---
 **Template footnote:**
 
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+This project started from the template <https://github.com/marcocrowe/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/marcocrowe/) Copyright &copy; 2021, All rights reserved.

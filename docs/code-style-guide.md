@@ -216,7 +216,7 @@ In python code, the IDEs shall manage spacing and indentation. Spaces shall be u
 Use f-Strings for clearer syntax, and they are fasted than `%` and `str.format` [(Jablonski, 2018)](./../references/readme.md#Jablonski2018)
 
 ```python
-repository_url = "https://www.github.com/markcrowe-com"
+repository_url = "https://www.github.com/marcocrowe"
 filename = "docs/population-planning-data-analytics.docx"
 ```
 
@@ -254,4 +254,4 @@ If specifying a numeric type (binary, octal, hexadecimal) use lowercase `b`, `o`
 ---
 **Template footnote:**
 
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+This project started from the template <https://github.com/marcocrowe/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/marcocrowe/) Copyright &copy; 2021, All rights reserved.

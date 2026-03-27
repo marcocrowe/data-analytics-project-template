@@ -40,7 +40,7 @@ Available at: <https://towardsdatascience.com/data-scientists-your-variable-name
 ## Template References
 
 - <a id="MarkCrowe2021"></a>Mark Crowe, 2021. *Data Analytics Project Template* \[Online\]
-Available at: <https://github.com/markcrowe-com/data-analytics-project-template>
+Available at: <https://github.com/marcocrowe/data-analytics-project-template>
 \[Accessed 30 December 2021\].
 
 ### Tools
@@ -50,4 +50,4 @@ Webpages backed up as Markdown files using [markdown-clipper](https://chrome.goo
 ---
 **Template footnote:**
 
-This project started from the template <https://github.com/markcrowe-com/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/markcrowe-com/) Copyright &copy; 2021, All rights reserved.
+This project started from the template <https://github.com/marcocrowe/data-analytics-project-template>. Permission is granted to reproduce for personal and educational use only. Commercial copying, hiring, lending is prohibited. In all cases this notice must remain intact. Template Author [Mark Crowe](https://github.com/marcocrowe/) Copyright &copy; 2021, All rights reserved.
